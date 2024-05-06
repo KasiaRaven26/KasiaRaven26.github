@@ -819,7 +819,7 @@ a:hover {
 
   #index-section1 b {
     font-family: "Crimson Text";
-    font-size: 37px;
+    font-size: 45px;
     font-weight: 300;
     color: rgba(242, 242, 226, 0.643);
     margin-left: 40px;
@@ -1008,7 +1008,7 @@ a:hover {
   }
 
   .logo {
-    width: 120px;
+    width: 200px;
     height: auto;
     margin-left: 20px;
   }
@@ -1078,10 +1078,10 @@ a:hover {
   .bar1,
   .bar2,
   .bar3 {
-    width: 35px;
-    height: 3.5px;
+    width: 45px;
+    height: 4px;
     background-color: #333;
-    margin: 6px 0;
+    margin: 7px 0;
     transition: 0.4s;
   }
 
@@ -1098,7 +1098,7 @@ a:hover {
   }
   .menu-main {
     position: absolute;
-    left: 30%;
+    left: 35%;
     top: 60%;
     transform: translate(-50%, -50%);
     margin-top: -100px;
@@ -1108,7 +1108,7 @@ a:hover {
     justify-content: space-between;
   }
   .menu-main a {
-    font-size: 50px;
+    font-size: 55px;
     margin-right: 300px;
     margin-top: 100px;
     color: black;
@@ -1119,7 +1119,7 @@ a:hover {
   }
 
   .menu-main a::before {
-    font-size: 52px;
+    font-size: 60px;
     content: attr(data);
     display: block;
     font-weight: 150;
@@ -1129,7 +1129,7 @@ a:hover {
   }
 
   .menu-main a:hover {
-    font-size: 52px;
+    font-size: 60px;
     margin-right: 300px;
     margin-top: 100px;
     color: white;
@@ -1142,7 +1142,7 @@ a:hover {
   .menu-main .slash1 {
     position: absolute;
     top: 35%;
-    left: 65%;
+    left: 70%;
     margin-left: -30px;
     height: 3px;
     width: 300px;
@@ -1154,7 +1154,7 @@ a:hover {
   .menu-main .slash2 {
     position: absolute;
     top: 25%;
-    left: 135%;
+    left: 145%;
     margin-left: -30px;
     height: 3px;
     width: 280px;
