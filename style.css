@@ -778,8 +778,8 @@ a:hover {
     font-weight: 500;
     position: absolute;
     left: 50px;
-    top: 200px;
-    font-size: 50px;
+    top: 300px;
+    font-size: 65px;
   }
 
   #menu.menu-open {
@@ -895,11 +895,12 @@ a:hover {
   }
 
   p {
-    font-size: 25px;
+    font-size: 33px;
     font-family: "Courier New", Courier, monospace;
     font-weight: 100;
     line-height: 2;
     text-align: center;
+    letter-spacing: 5px;
   }
 
   .pictures {
@@ -1065,14 +1066,14 @@ a:hover {
 
   @keyframes slide-down {
     to {
-      top: 220px;
+      top: 450px;
     }
   }
 
   .about-slide-in-div {
     position: absolute;
     top: -600px;
-    left: 600px;
+    left: 1000px;
     -webkit-animation: slide-down 2s forwards;
     -webkit-animation-delay: 0.5s;
     animation: slide-down 2s forwards;
