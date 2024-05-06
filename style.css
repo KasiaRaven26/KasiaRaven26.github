@@ -787,14 +787,14 @@ a:hover {
   }
 
   .profile-picture-div {
-    margin-top: 80px;
+    margin-top: 140px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .profile-picture {
-    width: 300px;
+    width: auto;
     height: 348px;
     margin: 10px;
   }
@@ -827,12 +827,13 @@ a:hover {
 
   .header-contact {
     font-family: "Courier New", Courier, monospace;
-    font-size: 50px;
+    font-size: 65px;
     letter-spacing: 5px;
     color: rgba(243, 242, 242, 0.885);
     font-weight: 500;
     position: relative;
-    left: -500px;
+    left: -950px;
+    top: 50px;
   }
 
   .contact-section {
@@ -848,9 +849,10 @@ a:hover {
   }
 
   .information-section {
-    font-size: 18px;
+    font-size: 22px;
     padding: 20px;
     color: antiquewhite;
+    letter-spacing: 5px;
   }
 
   @-webkit-keyframes contact-section-slide {
@@ -860,7 +862,7 @@ a:hover {
   }
   @keyframes contact-section-slide {
     to {
-      top: 250px;
+      top: 400px;
     }
   }
 
@@ -900,7 +902,7 @@ a:hover {
     font-weight: 100;
     line-height: 2;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 7px;
   }
 
   .pictures {
