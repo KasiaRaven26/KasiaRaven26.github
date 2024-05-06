@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/crimson-text');
+@import url("https://fonts.cdnfonts.com/css/crimson-text");
 
 /* Global styling */
 
@@ -31,22 +31,19 @@ a:hover {
   color: rgba(243, 242, 242, 0.885);
 }
 
-
-
 .background {
   background-color: rgba(186, 171, 171, 0.441);
 }
 
 /* For mobile phones */
 @media only screen and (max-width: 770px) {
-
   p {
     font-size: 17px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-weight: 100;
     line-height: 2;
     text-align: center;
-}
+  }
   @-webkit-keyframes slide-down {
     100% {
       top: 0;
@@ -59,31 +56,30 @@ a:hover {
     }
   }
 
-  .about-slide-in-div{
+  .about-slide-in-div {
     position: absolute;
     top: -250px;
-    
+
     -webkit-animation: slide-down 2s forwards;
     -webkit-animation-delay: 0.5s;
     animation: slide-down 2s forwards;
     animation-delay: 0.2s;
-    transition-timing-function: ease-out;  
+    transition-timing-function: ease-out;
   }
 
-  .menu-main{
+  .menu-main {
     height: 70vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-   }
+  }
 
-   .menu-main a {
+  .menu-main a {
     font-size: 25px;
     color: black;
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
-  
+    font-family: "Courier New", Courier, monospace;
   }
 
   .menu-main .slash1 {
@@ -107,14 +103,13 @@ a:hover {
 
   .profile-picture {
     height: 210px;
-    width:auto;
-    margin-top:10px;
+    width: auto;
+    margin-top: 10px;
   }
 
   .background {
     background-color: rgba(221, 155, 155, 0.487);
   }
-
 
   body {
     height: 100vh;
@@ -134,8 +129,8 @@ a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family:'Courier New', Courier, monospace;
-    background-color:rgba(124, 172, 202, 0.856);
+    font-family: "Courier New", Courier, monospace;
+    background-color: rgba(124, 172, 202, 0.856);
   }
 
   #menu.menu-open {
@@ -156,7 +151,7 @@ a:hover {
   }
 
   #index-section1 b {
-    font-family: 'Crimson Text';
+    font-family: "Crimson Text";
     font-size: 30px;
     font-weight: 300;
     color: rgba(214, 214, 198, 0.726);
@@ -172,49 +167,41 @@ a:hover {
   }
 
   .header-about {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     letter-spacing: 5px;
     color: rgba(243, 242, 242, 0.885);
     font-weight: 500;
     position: absolute;
-    left:50px;
-    top:120px;
+    left: 50px;
+    top: 120px;
     font-size: 23px;
-    
   }
 
   .email {
-    
     color: antiquewhite;
   }
 
-.header-contact {
-  font-family: 'Courier New', Courier, monospace;
-  letter-spacing: 5px;
-  color: rgba(243, 242, 242, 0.885);
-  font-weight: 500;
-  position: relative;
-  left: -50px;
-  
-  
+  .header-contact {
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 5px;
+    color: rgba(243, 242, 242, 0.885);
+    font-weight: 500;
+    position: relative;
+    left: -50px;
+  }
 
-}
+  .information-section {
+    font-size: 12px;
+    color: antiquewhite;
+    padding: 10px;
+  }
 
-.information-section {
-  font-size: 12px;
-  color: antiquewhite;
-  padding: 10px;
-
-
-}
-
- .contact-section {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
-  
+  .contact-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
   }
 
   .contact-section div {
@@ -223,11 +210,7 @@ a:hover {
     align-items: center;
     flex-direction: column;
     height: 100%;
-
-    }
-
-
-
+  }
 
   .logo {
     width: 80px;
@@ -273,17 +256,14 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-   }
+  }
 
-
-
-
-   .about-section{
+  .about-section {
     height: 70vh;
     display: flex;
     align-items: center;
-    flex-direction: column; 
-   }
+    flex-direction: column;
+  }
 
   .pictures {
     max-width: 80vw;
@@ -294,12 +274,11 @@ a:hover {
   }
 
   .pictures3 {
-    max-width: 80VW;
+    max-width: 80vw;
   }
 
-
   .caption1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-size: 15px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.79);
@@ -307,11 +286,11 @@ a:hover {
     margin: auto;
     transition: 0.5s;
     letter-spacing: 2px;
-    margin-left:80px;
+    margin-left: 80px;
   }
 
   .caption2 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-size: 15px;
     font-weight: lighter;
     color: rgb(184, 95, 95);
@@ -322,7 +301,7 @@ a:hover {
   }
 
   .caption3 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-size: 15px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.79);
@@ -330,52 +309,45 @@ a:hover {
     margin-left: 50px;
     transition: 0.5s;
     letter-spacing: 2px;
-    margin-left:120px;
+    margin-left: 120px;
   }
 
   .pictures {
-
-
     padding: 15px 40px 15px 40px;
     background-color: rgba(234, 239, 243, 0.376);
   }
-  
-  
+
   .pictures2 {
     padding: 15px 40px 15px 40px;
     background-color: rgba(234, 239, 243, 0.376);
-}
+  }
 
-
-.pictures3 {
-
-  padding: 15px 40px 15px 40px;
+  .pictures3 {
+    padding: 15px 40px 15px 40px;
     background-color: rgba(234, 239, 243, 0.376);
-}
+  }
 
+  .contact-slide-in-div {
+    position: absolute;
+    top: -600px;
+    -webkit-animation: contact-section-slide 2s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: contact-section-slide 2s forwards;
+    animation-delay: 0.2s;
+    transition-timing-function: ease-out;
+  }
 
-.contact-slide-in-div {
-  position: absolute;
-  top: -600px;
-  -webkit-animation: contact-section-slide 2s forwards;
-  -webkit-animation-delay: 0.5s;
-  animation: contact-section-slide 2s forwards;
-  animation-delay: 0.2s;
-  transition-timing-function: ease-out;  
-  
-}
-
-@-webkit-keyframes contact-section-slide {
-  100% {
-    top: 0;
+  @-webkit-keyframes contact-section-slide {
+    100% {
+      top: 0;
+    }
+  }
+  @keyframes contact-section-slide {
+    to {
+      top: -155px;
+    }
   }
 }
-@keyframes contact-section-slide {
-  to {
-    top: -155px;
-  }
-}
-  }
 
 /* Styling for screen size width between 200px and 1600px */
 @media only screen and (min-width: 770px) and (max-width: 1600px) {
@@ -390,33 +362,31 @@ a:hover {
   }
 
   .header-about {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     letter-spacing: 5px;
     color: rgba(243, 242, 242, 0.885);
     font-weight: 500;
     position: absolute;
-    left:50px;
-    top:200px;
+    left: 50px;
+    top: 200px;
     font-size: 50px;
-    
   }
 
   #menu.menu-open {
     transform: translate(0, 0);
   }
 
-.profile-picture-div {
-  margin-top: 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .profile-picture-div {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   .profile-picture {
     width: 300px;
     height: 348px;
     margin: 10px;
-
   }
 
   header {
@@ -438,7 +408,7 @@ a:hover {
   }
 
   #index-section1 b {
-    font-family: 'Crimson Text';
+    font-family: "Crimson Text";
     font-size: 37px;
     font-weight: 300;
     color: rgba(242, 242, 226, 0.643);
@@ -446,7 +416,7 @@ a:hover {
   }
 
   .header-contact {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-size: 50px;
     letter-spacing: 5px;
     color: rgba(243, 242, 242, 0.885);
@@ -462,18 +432,15 @@ a:hover {
     align-items: center;
 
     font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-weight: 100;
     letter-spacing: 5px;
-
   }
 
   .information-section {
     font-size: 18px;
     padding: 20px;
-    color:antiquewhite;
-  
-
+    color: antiquewhite;
   }
 
   @-webkit-keyframes contact-section-slide {
@@ -511,7 +478,7 @@ a:hover {
   h1 {
     font-size: 50px;
     color: rgba(243, 242, 242, 0.885);
-    font-family: 'Crimson Text', serif;
+    font-family: "Crimson Text", serif;
     font-weight: 100;
     letter-spacing: 2px;
     margin-left: 50px;
@@ -519,7 +486,7 @@ a:hover {
 
   p {
     font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-weight: 100;
     line-height: 2;
     text-align: center;
@@ -559,7 +526,7 @@ a:hover {
   }
 
   .caption1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-size: 30px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.79);
@@ -568,7 +535,7 @@ a:hover {
     transition: 0.5s;
   }
   .caption1:hover {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-size: 33px;
     font-weight: 500;
     color: rgba(243, 242, 242, 0.885);
@@ -578,7 +545,7 @@ a:hover {
   }
 
   .caption2 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-size: 30px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.79);
@@ -601,7 +568,7 @@ a:hover {
   }
 
   .caption2:hover {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-size: 33px;
     font-weight: 500;
     color: rgba(243, 242, 242, 0.885);
@@ -610,7 +577,7 @@ a:hover {
     transition: 0.5s;
   }
   .caption3 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-size: 30px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.79);
@@ -621,7 +588,7 @@ a:hover {
   }
 
   .caption3:hover {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-size: 33px;
     font-weight: 500;
     color: rgba(243, 242, 242, 0.885);
@@ -684,7 +651,7 @@ a:hover {
     -webkit-animation-delay: 0.5s;
     animation: slide-down 2s forwards;
     animation-delay: 0.2s;
-    transition-timing-function: ease-out;  
+    transition-timing-function: ease-out;
   }
 
   .contact-slide-in-div {
@@ -694,8 +661,8 @@ a:hover {
     -webkit-animation-delay: 0.5s;
     animation: contact-section-slide 2s forwards;
     animation-delay: 0.2s;
-    transition-timing-function: ease-out;  
-    color:antiquewhite;
+    transition-timing-function: ease-out;
+    color: antiquewhite;
   }
 
   .bar1,
@@ -736,7 +703,7 @@ a:hover {
     margin-top: 100px;
     color: black;
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-weight: 150;
     transition: 0.5s;
   }
@@ -757,7 +724,7 @@ a:hover {
     margin-top: 100px;
     color: white;
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-weight: 150;
     transition: 0.5s;
   }
@@ -794,40 +761,256 @@ a:hover {
 
 /* Styling for screen size width bigger thqn 1601px */
 @media only screen and (min-width: 1601px) {
-  h1 {
-    font-size: 35px;
-    color: rgb(193, 73, 73);
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 100;
-    text-transform: capitalize;
+  header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
     padding: 20px;
-    
+    z-index: 10;
   }
+
+  .header-about {
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 5px;
+    color: rgba(243, 242, 242, 0.885);
+    font-weight: 500;
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    font-size: 50px;
+  }
+
+  #menu.menu-open {
+    transform: translate(0, 0);
+  }
+
+  .profile-picture-div {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-picture {
+    width: 300px;
+    height: 348px;
+    margin: 10px;
+  }
+
+  header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px 20px;
+    column-gap: 80px;
+  }
+
+  #index-section1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(
+      to bottom right,
+      rgba(6, 83, 115, 0.637),
+      rgba(19, 112, 115, 0.096)
+    );
+  }
+
+  #index-section1 b {
+    font-family: "Crimson Text";
+    font-size: 37px;
+    font-weight: 300;
+    color: rgba(242, 242, 226, 0.643);
+    margin-left: 40px;
+  }
+
+  .header-contact {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: rgba(243, 242, 242, 0.885);
+    font-weight: 500;
+    position: relative;
+    left: -500px;
+  }
+
+  .contact-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 25px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 100;
+    letter-spacing: 5px;
+  }
+
+  .information-section {
+    font-size: 18px;
+    padding: 20px;
+    color: antiquewhite;
+  }
+
+  @-webkit-keyframes contact-section-slide {
+    100% {
+      top: 0;
+    }
+  }
+  @keyframes contact-section-slide {
+    to {
+      top: 250px;
+    }
+  }
+
+  .background {
+    background-color: rgba(221, 155, 155, 0.487);
+  }
+
+  .blue-main {
+    flex-basis: 100px;
+    transform: rotate(90deg);
+    max-width: 30%;
+    background-image: linear-gradient(
+      to bottom right,
+      rgba(15, 37, 54, 0.573),
+      rgba(106, 201, 205, 0.461)
+    );
+  }
+
+  .image-container h1 {
+    position: absolute;
+    top: 450px;
+    right: 170px;
+  }
+
+  h1 {
+    font-size: 50px;
+    color: rgba(243, 242, 242, 0.885);
+    font-family: "Crimson Text", serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-left: 50px;
+  }
+
   p {
     font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-weight: 100;
     line-height: 2;
     text-align: center;
   }
 
-  footer {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: small;
-    font-weight: 100;
-    text-transform: uppercase;
+  .pictures {
+    height: 500px;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 15px;
+    padding: 40px 160px 40px 160px;
+    background-color: rgba(234, 239, 243, 0.376);
   }
-  .style-paragraph {
-    text-decoration: underline;
+
+  .pictures2 {
+    width: 550px;
+    height: 450px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 40px 160px 40px 160px;
+    background-color: rgba(234, 239, 243, 0.376);
+    float: right;
   }
-  .style-paragraph:hover {
-    background-color: rgba(240, 248, 255, 0.268);
-    transform: scale(0.9);
+
+  .pictures3 {
+    width: 300px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 40px 160px 40px 160px;
+    background-color: rgba(234, 239, 243, 0.376);
+  }
+
+  .container {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .caption1 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.79);
+    padding: 15px;
+    margin: auto;
+    transition: 0.5s;
+  }
+  .caption1:hover {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 33px;
+    font-weight: 500;
+    color: rgba(243, 242, 242, 0.885);
+    padding: 15px;
+    margin: auto;
+    transition: 0.5s;
+  }
+
+  .caption2 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.79);
+    margin-top: 10px;
+    margin-right: 50px;
+    transition: 0.5s;
+    letter-spacing: 2px;
+  }
+
+  .caption2 ::before {
+    font-size: 33px;
+    display: block;
+    font-weight: 500;
+    content: attr(data);
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+
+  .caption2:hover {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 33px;
+    font-weight: 500;
+    color: rgba(243, 242, 242, 0.885);
+    margin-top: 10px;
+    margin-right: 50px;
+    transition: 0.5s;
+  }
+  .caption3 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.79);
+    padding: 15px;
+    margin-left: 50px;
+    transition: 0.5s;
+    letter-spacing: 2px;
+  }
+
+  .caption3:hover {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 33px;
+    font-weight: 500;
+    color: rgba(243, 242, 242, 0.885);
+    padding: 15px;
+    margin-left: 50px;
+    transition: 0.5s;
   }
 
   .logo {
-    width: 300px;
+    width: 120px;
     height: auto;
+    margin-left: 20px;
   }
   @-webkit-keyframes slide-right {
     100% {
@@ -848,76 +1031,74 @@ a:hover {
     animation-delay: 0.5s;
   }
   #demo {
-    position: relative;
+    position: absolute;
     top: -600px;
-    left: 100px;
+    left: 600px;
     -webkit-animation: slide-down 2s forwards;
     -webkit-animation-delay: 0.5s;
     animation: slide-down 2s forwards;
     animation-delay: 0.5s;
     transition-timing-function: ease-out;
   }
+
   @-webkit-keyframes slide-down {
     100% {
       top: 0;
     }
   }
+
   @keyframes slide-down {
     to {
-      top: 500px;
+      top: 220px;
     }
   }
-  .pictures {
-    margin-left: 200px;
-    margin-top: 200px;
-  }
-  .pictures2 {
-    width: 600px;
-    height: 500px;
-    margin-left: 100px;
-    margin-bottom: 250px;
+
+  .about-slide-in-div {
+    position: absolute;
+    top: -600px;
+    left: 600px;
+    -webkit-animation: slide-down 2s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: slide-down 2s forwards;
+    animation-delay: 0.2s;
+    transition-timing-function: ease-out;
   }
 
-  .caption1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
-    font-weight: lighter;
-    color: rgb(184, 95, 95);
-    position: top;
-    padding: 5px;
-    display: flex;
-  }
-  .caption2 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    font-weight: lighter;
-    color: rgb(184, 95, 95);
-    margin-top: 10px;
-    padding: 5px;
-  }
-  header {
-    display: flex;
-    justify-content: flex-end;
-    padding: 30px 50px;
-    column-gap: 80px;
-  }
-  .container {
-    display: inline-block;
-    cursor: pointer;
+  .contact-slide-in-div {
+    position: absolute;
+    top: -600px;
+    -webkit-animation: contact-section-slide 2s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: contact-section-slide 2s forwards;
+    animation-delay: 0.2s;
+    transition-timing-function: ease-out;
+    color: antiquewhite;
   }
 
   .bar1,
   .bar2,
   .bar3 {
     width: 35px;
-    height: 5px;
+    height: 3.5px;
     background-color: #333;
     margin: 6px 0;
     transition: 0.4s;
   }
+
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
   .menu-main {
     position: absolute;
-    left: 25%;
+    left: 30%;
     top: 60%;
     transform: translate(-50%, -50%);
     margin-top: -100px;
@@ -927,18 +1108,41 @@ a:hover {
     justify-content: space-between;
   }
   .menu-main a {
-    font-size: 100px;
+    font-size: 50px;
     margin-right: 300px;
     margin-top: 100px;
     color: black;
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-weight: 150;
+    transition: 0.5s;
   }
+
+  .menu-main a::before {
+    font-size: 52px;
+    content: attr(data);
+    display: block;
+    font-weight: 150;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
+
+  .menu-main a:hover {
+    font-size: 52px;
+    margin-right: 300px;
+    margin-top: 100px;
+    color: white;
+    text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 150;
+    transition: 0.5s;
+  }
+
   .menu-main .slash1 {
     position: absolute;
-    top: 45%;
-    left: 100%;
+    top: 35%;
+    left: 65%;
     margin-left: -30px;
     height: 3px;
     width: 300px;
@@ -949,13 +1153,18 @@ a:hover {
 
   .menu-main .slash2 {
     position: absolute;
-    top: 35%;
-    left: 200%;
+    top: 25%;
+    left: 135%;
     margin-left: -30px;
     height: 3px;
     width: 280px;
     background: white;
     transform: rotate(-90deg) translate(-75%, -75%);
     transform-origin: 0 0;
+  }
+
+  .picture-background {
+    display: flex;
+    align-items: center;
   }
 }
