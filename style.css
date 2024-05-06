@@ -384,7 +384,7 @@ a:hover {
   }
 
   .profile-picture {
-    width: 300px;
+    width: auto;
     height: 348px;
     margin: 10px;
   }
@@ -434,7 +434,7 @@ a:hover {
     font-size: 25px;
     font-family: "Courier New", Courier, monospace;
     font-weight: 100;
-    letter-spacing: 5px;
+    letter-spacing: 7px;
   }
 
   .information-section {
@@ -450,7 +450,7 @@ a:hover {
   }
   @keyframes contact-section-slide {
     to {
-      top: 250px;
+      top: 300px;
     }
   }
 
