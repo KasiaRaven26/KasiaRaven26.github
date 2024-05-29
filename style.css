@@ -105,6 +105,7 @@ a:hover {
     height: 210px;
     width: auto;
     margin-top: 10px;
+    border: 1px solid rgba(99, 99, 99, 0.354);
   }
 
   .background {
@@ -387,6 +388,7 @@ a:hover {
     width: auto;
     height: 348px;
     margin: 10px;
+    border: 1px solid rgba(99, 99, 99, 0.354);
   }
 
   header {
@@ -797,6 +799,7 @@ a:hover {
     width: auto;
     height: 348px;
     margin: 10px;
+    border: 1px solid rgba(99, 99, 99, 0.354);
   }
 
   header {
